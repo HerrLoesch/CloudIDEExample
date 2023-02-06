@@ -1,9 +1,11 @@
 namespace Chat.Implementation;
 
+using Chat.Implementation.Data;
+
 public class ChatController
 {
-    public IEnumerable<object> GetMessages()
+    public IEnumerable<ChatMessage> GetMessages()
     {
-        return new List<object> { new object()};
+        return new List<ChatMessage> { new ChatMessage("Hallo Welt")};
     }
 }

@@ -20,6 +20,6 @@ public class ChatTests
 
         var messages = sut.GetMessages();
 
-        Assert.True(messages.Any());
+        Assert.True(messages.Any(x => x.Text == "Hallo Welt"));
     }
 }
