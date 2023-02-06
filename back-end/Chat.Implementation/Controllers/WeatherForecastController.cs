@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace back_end.Controllers;
+namespace Chat.Implementation.Controllers;
 
 [ApiController]
 [Route("[controller]")]

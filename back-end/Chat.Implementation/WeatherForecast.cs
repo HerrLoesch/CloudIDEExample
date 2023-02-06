@@ -1,4 +1,4 @@
-namespace back_end;
+namespace Chat.Implementation;
 
 public class WeatherForecast
 {
