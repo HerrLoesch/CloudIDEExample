@@ -8,4 +8,5 @@ public class ChatMessage
     }
 
     public string Text {get; set;}
+
 }
