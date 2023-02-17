@@ -33,4 +33,14 @@ public class ChatTests
         Assert.True(date.Any(x => x.Date == "20/03/2022 10:10"));
 
     }
+
+    [Fact]
+    public void annonymus_is_returned_if_no_user_name()
+    {
+        var sut = new ChatController();
+
+        var userName = sut.GetUserName();
+
+        Assert.True(userName.Any(x => x.UserName == "Annonymus"));
+    }
 }

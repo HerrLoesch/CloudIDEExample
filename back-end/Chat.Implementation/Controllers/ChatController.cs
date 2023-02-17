@@ -12,5 +12,9 @@ public class ChatController
     {
         return new List<ChatMessageDate> {new ChatMessageDate(DateTime.Now.ToString("MM/dd/yyyy HH:mm"))};
     }
+
+    public IEnumerable<ChatMessageUserName>GetUserName(){
+        return new List<ChatMessageUserName> {new ChatMessageUserName("Annonymus")};
+    }
   
 }
